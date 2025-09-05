@@ -2,7 +2,7 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>بازی سه مرحله‌ای</title>
+  <title>بازی رازدار</title>
   <style>
     body {
       background-color: #111827;
@@ -137,6 +137,7 @@
 <!-- Welcome Page -->
 <div class="container" id="welcome">
   <h2>راز ۳ مرحله‌ای</h2>
+  <p style="font-size:2rem;color:#9ca3af;">سلام دختری. امروز 14 شهریوره. دقیقا یکسال بعد از اولین دیدار ما. راستشو بخوای دیدار اولمون خیلی معجزه‌آسا و رازانگیز بود. برای همین منم یه بازی 3 مرحله ای برات درست کردم که با کامل کردن هر مرحله، یه بخش از رمز کامل میشه.</p>
   <p style="font-size:2rem;color:#9ca3af;">میتونی راز ۳ مرحله ای رو پیدا کنی؟</p>
   <button onclick="startGame()">آره میتونم</button>
 </div>
@@ -156,7 +157,7 @@
   <input id="answerInput" />
   <button onclick="checkAnswer()">ارسال</button>
   <button id="hintBtn" onclick="showHint()">💡</button>
-  <button id="skipBtn" onclick="skipPhase(1)">⏭ رد شدن</button>
+<!--   <button id="skipBtn" onclick="skipPhase(1)">⏭ رد شدن</button> -->
   <div id="error"></div>
   <div id="success"></div>
 </div>
@@ -166,7 +167,7 @@
   <h2>مرحله دوم</h2>
   <p style="font-size:2rem;color:#9ca3af;">کارت‌های مشابه رو پیدا کن</p>
   <div id="memory-grid"></div>
-  <button id="skipBtn" onclick="skipPhase(2)">⏭ رد شدن</button>
+<!--   <button id="skipBtn" onclick="skipPhase(2)">⏭ رد شدن</button> -->
 </div>
 
 <!-- Phase 3 -->
@@ -176,7 +177,7 @@
   <div id="word-row"></div>
   <div id="wp-status"></div>
   <button onclick="reshuffleWord()">🔀 درهم کن</button>
-  <button id="skipBtn" onclick="skipPhase(3)">⏭ رد شدن</button>
+<!--   <button id="skipBtn" onclick="skipPhase(3)">⏭ رد شدن</button> -->
 </div>
 
 <!-- Congrats Page -->
@@ -439,4 +440,5 @@
 
 </body>
 </html>
+
 
