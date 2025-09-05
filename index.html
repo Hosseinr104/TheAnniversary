@@ -82,8 +82,8 @@
     button:hover { background: #2563eb; }
     #skipBtn { background: #f59e0b; margin-top: 6px; }
 
-    #error { color: #f87171; font-size: 13px; margin-top: 6px; }
-    #success { color: #4ade80; font-size: 14px; margin-top: 6px; }
+    #error { color: #f87171; font-size:1.5rem; margin-top: 16px; }
+    #success { color: #4ade80; font-size: 1.5rem; margin-top: 16px; }
 
     /* Memory game */
     #memory-grid {
@@ -237,7 +237,7 @@
 
   function renderBlankLines(word) {
     const blankDiv = document.getElementById("blank-line");
-    blankDiv.innerHTML = word.split("").map(ch => (ch===" "?" ":"ــ")).join(" ");
+    blankDiv.innerHTML = word.split("").map(ch => (ch===" "?" ":"_")).join(" ");
   }
 
   function loadStage() {
@@ -440,5 +440,6 @@
 
 </body>
 </html>
+
 
 
